@@ -41,7 +41,7 @@ GET https://link-preview-api.ikamgars.workers.dev/?url=https://wikipedia.com
 }
 ```
 
-🧠 How it works
+## 🧠 How it works
 The worker:
 
 1. Fetches the target URL
@@ -49,7 +49,7 @@ The worker:
 3. Extracts metadata (title, description, image)
 4. Returns JSON response
 
-🛠 Deployment
+## 🛠 Deployment
 
 1. Create a Cloudflare Worker
 2. Paste worker.js code

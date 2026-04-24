@@ -34,6 +34,7 @@ GET https://link-preview-api.ikamgars.workers.dev/?url=https://wikipedia.com
 ---
 ### Response
 
+
 ```json
 {
   "title": "Example Domain",

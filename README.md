@@ -44,6 +44,7 @@ GET https://link-preview-api.ikamgars.workers.dev/?url=https://wikipedia.com
 
 ---
 ## 🧠 How it works
+
 The worker:
 
 1. Fetches the target URL
@@ -58,3 +59,4 @@ The worker:
 2. Paste worker.js code
 3. Deploy
 4. Use generated URL
+---

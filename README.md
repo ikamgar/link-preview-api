@@ -1,13 +1,15 @@
+---
 # 🔗 Link Preview API (Cloudflare Worker)
 
+---
 A simple serverless API built with Cloudflare Workers that extracts metadata from any URL (title, description, image).
 
+---
 ## 🚀 Live Demo
 
 https://link-preview-api.ikamgars.workers.dev/?url=https://wikipedia.com
 
 ---
-
 ## 📦 Features
 
 - Fetch page title
@@ -16,7 +18,6 @@ https://link-preview-api.ikamgars.workers.dev/?url=https://wikipedia.com
 - Fast edge execution via Cloudflare
 
 ---
-
 ## ⚙️ Tech Stack
 
 - Cloudflare Workers
@@ -24,13 +25,13 @@ https://link-preview-api.ikamgars.workers.dev/?url=https://wikipedia.com
 - HTML parsing with regex
 
 ---
-
 ## 📌 Usage
 
 ```http
 GET https://link-preview-api.ikamgars.workers.dev/?url=https://wikipedia.com
 ```
 
+---
 ### Response
 
 ```json
@@ -41,6 +42,7 @@ GET https://link-preview-api.ikamgars.workers.dev/?url=https://wikipedia.com
 }
 ```
 
+---
 ## 🧠 How it works
 The worker:
 
@@ -49,6 +51,7 @@ The worker:
 3. Extracts metadata (title, description, image)
 4. Returns JSON response
 
+---
 ## 🛠 Deployment
 
 1. Create a Cloudflare Worker

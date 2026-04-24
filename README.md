@@ -27,10 +27,9 @@ link-preview-api.ikamgars.workers.dev/?url=https://wikipedia.com
 
 ## 📌 Usage
 
-### Request
-
-GET /?url=https://wikipedia.com
-
+```http
+GET https://link-preview-api.ikamgars.workers.dev/?url=https://wikipedia.com
+```
 
 ### Response
 

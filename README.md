@@ -4,7 +4,7 @@ A simple serverless API built with Cloudflare Workers that extracts metadata fro
 
 ## 🚀 Live Demo
 
-link-preview-api.ikamgars.workers.dev/?url=https://wikipedia.com
+https://link-preview-api.ikamgars.workers.dev/?url=https://wikipedia.com
 
 ---
 
